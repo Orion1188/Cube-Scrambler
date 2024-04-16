@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Anta' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrambler 1.0</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headline">
+            <h1>Cube Scrambler</h1>
+        </div>
+        <div class="settings">
+            <p>Choose cube type</p>
+            <select id="cubetypes">
+                <option value="2x2">2x2x2</option>
+                <option value="3x3">3x3x3</option>
+                <option value="skewb">Skewb</option>
+            </select>
+            <p>Set number of scrambles (1-100)</p>
+            <input type="number" id="numscrambles" min="1" max="100">
+        </div>
+        <div id="scrbuttonbox">
+            <button id="scrbutton" onclick="print_scrambles()">Generate Scrambles</button>
+        </div>
+        <div class="scrambles">
+            <p id="scrambles"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

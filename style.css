@@ -1,0 +1,51 @@
+body{
+    background-image: url('cubic-rainbow-wallpaper-for-3840x2160-4k-136-384.jpg');
+    background-size: 2160px;
+}
+h1{
+    color: white;
+    font-family: "Anta", serif;
+    font-size: 120px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    font-family: "Arial";
+}
+.container{
+    width: 1000px;
+    background-color: #222222;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 40px;
+    border: 5px solid white;
+}
+#scrambles{
+    font-family: "Space Mono", monospace;
+    white-space: pre-wrap;
+}
+#scrbutton{
+    color: white;
+    background-color: #444444;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 8px;
+}
+#scrbuttonbox{
+    padding: 30px;
+}
+#cubetypes{
+    color: white;
+    background-color: #444444;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+#numscrambles{
+    color: white;
+    background-color: #444444;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+}
